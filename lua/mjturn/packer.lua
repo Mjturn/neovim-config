@@ -33,4 +33,11 @@ return require("packer").startup(function(use)
 		  {"rafamadriz/friendly-snippets"},
 	  }
   }
+
+  use({
+      "Pocco81/auto-save.nvim",
+      config = function()
+          require("auto-save").setup {}
+      end,
+  })
 end)
