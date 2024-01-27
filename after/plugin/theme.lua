@@ -4,4 +4,4 @@ function setTheme(theme)
 	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 end
 
-setTheme("rose-pine")
+setTheme("gruvbox")
