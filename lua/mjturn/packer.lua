@@ -10,7 +10,7 @@ return require("packer").startup(function(use)
 
 	use "tanvirtin/monokai.nvim"
 
-	use({ "rose-pine/neovim", as = "rose-pine" })
+    use({ "rose-pine/neovim", as = "rose-pine" })
 
     use "ellisonleao/gruvbox.nvim"
 
@@ -36,10 +36,10 @@ return require("packer").startup(function(use)
 	  }
   }
 
-  use({
-      "Pocco81/auto-save.nvim",
-      config = function()
-          require("auto-save").setup {}
-      end,
-  })
+    use({
+        "Pocco81/auto-save.nvim",
+        config = function()
+            require("auto-save").setup {}
+        end,
+    })
 end)
